@@ -10,7 +10,7 @@
 		<!-- Add menu contributions to RDS Data View -->	   
 	   	<contribution target="editor">
 			<menu name="CFScripter">
-	    		<action name="Detag" handlerid="descript" showResponse="true" />
+	    		<action name="Detag" handlerid="detag" showResponse="true" />
 				<action name="Wrap in CFScript" handlerid="wrapincfscript" showResponse="true" />
 			</menu>
 		</contribution>
@@ -18,7 +18,7 @@
 
 	<!-- Define Handlers-->
 	<handlers>		
-		<handler id="descript" type="CFM" filename="descript.cfm" />
+		<handler id="detag" type="CFM" filename="detag.cfm" />
 		<handler id="wrapincfscript" type="CFM" filename="wrapincfscript.cfm" />
 	</handlers>
 
